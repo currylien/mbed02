@@ -14,6 +14,6 @@ int main(void)
     while (1) {
         printf("mypin has value : %d \n\r", mypin.read());
         myled = mypin;
-        ThisThread::seelp_for(250ms);
+        ThisThread::sleep_for(250ms);
     }
 }
